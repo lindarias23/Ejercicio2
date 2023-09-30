@@ -1,0 +1,72 @@
+/* estilos.css */
+
+body {
+    background-image: url('imagen1.jpg'); /* Cambia 'tu-imagen-de-fondo.jpg' a la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: left; /* Alinea el texto del cuerpo del documento a la izquierda */
+}
+
+h2 {
+    color: royalblue; /* Texto morado */
+    text-align: center; /* Centra solo el título */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra del título */
+    font-weight: bold; /* Establece el texto en negrita */
+    margin-top: 20px; /* Agrega espacio en la parte inferior del título */
+}
+
+h3 {
+    color: royalblue; /* Texto morado */
+    text-align: center; /* Centra solo el título */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra del título */
+}
+
+
+.form-group {
+    background-color: #eee; /* Bloques de texto gris */
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left; /* Alinea el texto en los bloques de texto a la izquierda */
+}
+
+label {
+    color: royalblue; /* Texto morado */
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+select, input {
+    color: royalblue; /* Texto morado */
+    width: 100%; /* Asegura que los campos de entrada ocupen todo el ancho disponible */
+}
+
+.btn-primary {
+    background-color: royalblue; /* Botón morado */
+    color: white; /* Texto blanco en el botón */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+    width: 30%; /* Asegura que el botón ocupe todo el ancho disponible */
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #6f42c1; /* Cambia el color al pasar el mouse */
+}
+/* Alinea el contenido del contenedor al centro horizontalmente */
+.container {
+    text-align: center;
+}
+/* Estilos para el contenedor del logo */
+.logo-container {
+    position: absolute; /* Posición absoluta para que no afecte al flujo del contenido */
+    top: 0; /* Coloca el contenedor en la parte superior */
+    left: 0; /* Coloca el contenedor en la parte izquierda */
+    padding: 10px; /* Agrega espacio alrededor del logo si es necesario */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para el logo */
+.logo-container img {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
